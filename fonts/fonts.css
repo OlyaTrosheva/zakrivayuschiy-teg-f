@@ -1,6 +1,10 @@
+/* В этом файле вы импортируете все шрифты для сайта. Один из них вариативный и требует особенной настройки */
+
 @font-face {
   font-family: 'Inter';
-  src: url(../fonts/Inter-Variable.woff2) format('woff2');
+  src:
+    url(../fonts/Inter-Variable.woff2) format('woff2 supports variations'),
+    url(../fonts/Inter-Variable.woff2) format('woff2-variations');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -13,4 +17,3 @@
   font-style: normal;
   font-display: swap;
 }
-/* В этом файле вы импортируете все шрифты для сайта. Один из них вариативный и требует особенной настройки */
