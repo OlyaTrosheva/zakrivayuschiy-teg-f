@@ -6,8 +6,9 @@
   --animation-fill-color: #FF0000;
   --contour-color: #000000;
 
-  --header-width: clamp(320px, 90%, 1024px);
-  --header-padding: clamp(10px, 5%, 40px);
+  --page-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+  --header-padding-inline: 16px;
+  --header-padding-block: clamp(7.625rem, 7.4489rem + 0.7512vw, 8.125rem);
 
   --label-color: #000000;
   /* цвет текста */
